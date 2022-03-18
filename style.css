@@ -1,0 +1,93 @@
+body {
+    background-color: #f5ece4;
+    font-family: 'Poppins';
+}
+
+.container {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.navbar {
+display: flex;
+width: 100%;
+
+justify-content: space-between;
+
+}
+.itens > p{
+    margin-right: 30px;
+    margin-top: 36px;
+    margin-left: 100px;
+}
+.itens {
+    display: flex;
+}
+.buttons > button{
+    border-radius: 10px;
+    height: 38px;
+    width: 114px;
+    margin-left: 20px;
+    margin-top: 28px;
+    text-decoration: none;
+    border-style: none;
+}
+.in {
+    background-color: white;
+    color:black
+    
+}
+.out {
+    background-color: black;
+    color:white
+}
+.block {
+    padding: 20px;
+    width: 370px;
+    height: 190px;
+    left: 300px;
+    top: 154px;
+
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.info {
+    margin-top: 15px;
+    width: 90px;
+    height: 25px;
+    left: 10px;
+    top: 187px;
+    color:#FFFFFF;
+    font-family: 'Poppins';
+    border: 0px;
+    background: #000000;
+    border-radius: 5px;
+}
+.info2 {
+    position: absolute;
+    width: 74px;
+    height: 21px;
+    left: 27x;
+    top: 155px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.content {
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.description {
+    text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+  white-space: nowrap;
+}
