@@ -109,6 +109,10 @@ function generateRandomColor() {
 const res = data.map( item => {
   const cor = setBg()
   item.bg = '#' + cor
+  if(cor.length === 5){
+    item.bg = '#' + cor + 1
+  } 
+ 
 })
 
 
