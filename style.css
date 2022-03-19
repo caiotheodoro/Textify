@@ -6,10 +6,17 @@ body {
 .container {
     margin-left: 300px;
     margin-right: 300px;
+    position: relative;
+}
+.container > .navbar {
+    position: sticky;
+    top: -1px;
+    background-color: #f5ece4;
 }
 .navbar {
 display: flex;
 width: 100%;
+
 
 justify-content: space-between;
 
