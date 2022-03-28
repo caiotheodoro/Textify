@@ -27,15 +27,27 @@
                 <button class="in">
                     Log in
                 </button>
-                <button class="out">
-                    Log out
+                <button id="open" class="out">
+                    Insert Card
                 </button>
             </div>
         </div>
         <div class="content">
             
         </div>
-       
+        <div class="modal-container" id="modal_container">
+            <div class="modal">
+                <h2>textify</h2>
+                <label for="title"> title: </label>
+                <input type="text" title="title">
+                <label for="description"> description: </label>
+                <input type="description" name="description">
+                <label for="link"> link:</label>
+                <input type="text" name="link">
+                <button id="close">inscreva-se</button>
+                <span class="modal-close" id="close" onclick="remove">X</span>
+            </div>
+        </div>
     </div>
     <script src=script1.js></script>
 </body>

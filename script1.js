@@ -109,6 +109,10 @@ function generateRandomColor() {
 const res = data.map( item => {
   const cor = setBg()
   item.bg = '#' + cor
+  if(cor.length === 5){
+    item.bg = '#' + cor + 1
+  } 
+ 
 })
 
 
@@ -125,3 +129,22 @@ document.querySelector('.content').innerHTML += data.flatMap( item => {
 
 
 }).join('')
+
+
+const open = document.getElementById('open');
+const modal_container = document.getElementById('modal_container');
+const close = document.querySelector('.modal-close');
+
+const modalClose = document.getElementById('modal-close');
+
+open.addEventListener('click', () => {
+  modal_container.classList.add('show');
+});
+
+close.addEventListener('click', () => {
+    modal_container.classList.remove('show');
+});
+
+modalClose.addEventListener('click', () => {
+    modal_container.classList.remove('show');
+});
